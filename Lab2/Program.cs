@@ -292,7 +292,7 @@ public class Program
 
         for (int i = 0; i < n; i++)
         {
-            if ((double.Parse(Console.ReadLine()) >= norm))
+            if ((double.Parse(Console.ReadLine()) <= norm))
             {
                 answer++;
             }
